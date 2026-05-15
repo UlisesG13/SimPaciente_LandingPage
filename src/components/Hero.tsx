@@ -62,9 +62,7 @@ export default function Hero() {
           <div className="animate-fade-in-up animation-delay-300 mt-10 flex flex-wrap gap-4">
             <a
               href="#contact"
-              className="group inline-flex items-center gap-2 rounded-lg bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-xl shadow-accent/30 transition-all duration-300 hover:bg-accent/90 hover:shadow-accent/50 hover:-translate-y-0.5"
             >
-              Solicitar Demo
               <svg
                 className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
                 fill="none"
@@ -86,9 +84,9 @@ export default function Hero() {
           {/* Stats Row */}
           <div className="animate-fade-in-up animation-delay-400 mt-16 grid grid-cols-3 gap-8 border-t border-white/10 pt-8">
             {[
-              { value: '500+', label: 'Casos Clínicos' },
               { value: '24/7', label: 'Disponibilidad' },
               { value: '80%', label: 'Reducción Costos' },
+              { value: '100%', label: 'Mayor retención de pacientes' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold text-white lg:text-3xl">

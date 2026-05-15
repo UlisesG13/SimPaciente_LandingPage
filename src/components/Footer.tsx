@@ -32,7 +32,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-12 border-t border-white/5 pt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-          <p className="text-xs text-white/30">© 2024 SimPaciente. Todos los derechos reservados.</p>
+          <p className="text-xs text-white/30">© SmartHill 2026 SimPaciente. Todos los derechos reservados.</p>
           <div className="flex gap-4">
             {['Privacidad', 'Términos', 'HIPAA'].map((l) => (
               <a key={l} href="#" className="text-xs text-white/30 transition-colors hover:text-white/60">{l}</a>
