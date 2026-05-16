@@ -84,9 +84,7 @@ export default function Hero() {
           {/* Stats Row */}
           <div className="animate-fade-in-up animation-delay-400 mt-16 grid grid-cols-3 gap-8 border-t border-white/10 pt-8">
             {[
-              { value: '24/7', label: 'Disponibilidad' },
-              { value: '80%', label: 'Reducción Costos' },
-              { value: '100%', label: 'Mayor retención de pacientes' },
+
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold text-white lg:text-3xl">
