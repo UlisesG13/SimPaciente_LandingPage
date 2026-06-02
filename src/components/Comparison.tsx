@@ -6,8 +6,8 @@ const traditional = [
 
 const solution = [
   'Práctica ilimitada 24/7 desde cualquier dispositivo.',
-  'Miles de casos clínicos generados por IA con rigor médico.',
-  'Evaluación instantánea de razonamiento y empatía.',
+  'Casos clinicos generados por Docentes.',
+  'Evaluación instantánea de razonamiento.',
 ];
 
 export default function Comparison() {

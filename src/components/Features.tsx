@@ -1,10 +1,10 @@
 const features = [
-    { title: 'Clasificador de intención clínica', desc: 'La IA analiza si el estudiante indaga sobre antecedentes, síntomas actuales o factores de riesgo, con retroalimentación precisa.' },
-    { title: 'Revelación inteligente', desc: 'El paciente virtual no entrega toda la información al inicio; el estudiante debe saber preguntar para desbloquear datos críticos.' },
-    { title: 'Evaluación con rúbrica', desc: 'Integración total con criterios académicos oficiales para calificar el desempeño técnico y humano.' },
-    { title: 'LLM Local', desc: 'Privacidad y soberanía de datos garantizada. La IA corre en servidores locales o institucionales, sin dependencias externas.' },
-    { title: 'Múltiples roles', desc: 'Simula no solo al paciente, sino también al dcotor encargado de validar el diagnostico' },
-    { title: 'Voz a Texto Médico', desc: 'Reconocimiento preciso de terminología farmacológica y anatómica en tiempo real.' },
+    { title: 'Clasificador de preguntas clínicas', desc: 'Clasifica en tiempo real la dimensión de cada intervención: síntoma principal, cronología, intensidad, agravantes, antecedentes y contexto social.' },
+    { title: 'Modelo de estado (grafo)', desc: 'Define qué información está disponible y cuándo; las revelaciones dependen del historial de la sesión y las preguntas del estudiante.' },
+    { title: 'Evaluador de razonamiento clínico', desc: 'Puntúa el proceso diagnóstico por dimensiones según rúbricas académicas, generando retroalimentación estructurada.' },
+    { title: 'Roles y flujo académico', desc: 'Acceso para estudiante, profesor y coordinador; historial por alumno y dashboard de desempeño para cada rol.' },
+    { title: 'Privacidad y LLM local', desc: 'El LLM sólo genera texto de respuesta; las decisiones pedagógicas y los datos clínicos permanecen dentro de la infraestructura institucional.' },
+    { title: 'Minería de datos y analíticas', desc: 'Curvas de aprendizaje, clustering de perfiles, extracción de secuencias de preguntas y detección de errores diagnósticos recurrentes.' },
 ];
 
 const icons = [

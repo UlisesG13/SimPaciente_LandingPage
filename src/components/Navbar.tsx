@@ -2,10 +2,11 @@ import { useState, useEffect } from 'react';
 
 const navLinks = [
     { label: 'Inicio', href: '#hero' },
-    { label: 'Características', href: '#features' },
-    { label: 'Beneficios', href: '#benefits' },
-    { label: 'Para tu Facultad', href: '#faculty' },
-    { label: 'Contacto', href: '#contact' },
+    { label: 'Problema', href: '#problem' },
+    { label: 'Arquitectura IA', href: '#ml' },
+    { label: 'Usuarios', href: '#benefits' },
+    { label: 'Alcances', href: '#scope' },
+    { label: 'Modelo de Negocio', href: '#faculty' },
 ];
 
 export default function Navbar() {

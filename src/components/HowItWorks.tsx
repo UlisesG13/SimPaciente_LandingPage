@@ -40,6 +40,27 @@ export default function HowItWorks() {
             </div>
           ))}
         </div>
+        {/* Training & Data sources */}
+        <div className="mt-12 mx-auto max-w-6xl rounded-2xl border border-white/10 bg-white/5 p-8 lg:p-10">
+          <div className="grid gap-6 md:grid-cols-2">
+            <div>
+              <h4 className="mb-3 text-lg font-bold text-white">Entrenamiento de modelos</h4>
+              <ul className="list-inside list-disc space-y-2 text-white/70">
+                <li>Clasificador de preguntas: fine-tuning sobre corpus anotado (BETO / RoBERTuito) usando ejemplos médicos en español.</li>
+                <li>Modelo de estado: casos clínicos modelados por profesores que definen el grafo de información y reglas de revelación.</li>
+                <li>Evaluador de razonamiento clínico: entrenamiento supervisado con sesiones anotadas y rúbricas OSCE para generar feedback por dimensión.</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="mb-3 text-lg font-bold text-white">Fuentes de datos y minería</h4>
+              <ul className="list-inside list-disc space-y-2 text-white/70">
+                <li>Datos base: datasets públicos en español (p. ej. MedDialog) complementados con preguntas y sesiones anotadas por profesores.</li>
+                <li>Datos propios: los profesores crean los casos y las rúbricas dentro de la plataforma; las sesiones del piloto generan el dataset de evaluación.</li>
+                <li>Minería de datos: extracción de patrones secuenciales, clustering de perfiles de alumnos, curvas de aprendizaje y detección de errores diagnósticos recurrentes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
